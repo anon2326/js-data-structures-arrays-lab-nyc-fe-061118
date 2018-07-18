@@ -26,3 +26,13 @@ function prependDriver(name){
   newdriver.unshift(name);
   return newdriver;
 }
+function removeLastDriver(){
+  newdriver = drivers.slice();
+  newdriver.pop();
+  return newdriver;
+}
+function removeFirstDriver(){
+  newdriver = drivers.slice();
+  newdriver.shift();
+  return newdriver;
+}
