@@ -21,3 +21,8 @@ function appendDriver(name){
   newdriver.push(name);
   return newdriver;
 }
+function prependDriver(name){
+  newdriver = drivers.slice();
+  newdriver.unshift(name);
+  return newdriver;
+}
