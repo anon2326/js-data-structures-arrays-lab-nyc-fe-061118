@@ -12,6 +12,7 @@ function destructivelyRemoveLastDriver(){
   drivers.pop();
   return drivers;
 }
-function destructveelyRemoveFirstDriver()new Promise(function(resolve, reject) {
-  
-});
+function destructveelyRemoveFirstDriver(){
+  drivers.shift();
+  return drivers;
+}
